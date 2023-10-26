@@ -1,18 +1,18 @@
-# Suspicious History Detektor
+# Suspicious History Detector
 
-Ez a python script egy adott lista domainjeit megnézi a felhasználó összes böngészőjében.
+This python script looks at the domains of a given list in all browsers of the user.
 
-Ha talál egyetlen egy domaint is a listáról, bezáródik 1-es kóddal
+If it find a single domain from the list, it will close with code 1
 
-### Használat
+### Usage
 
-Nyisd meg a `detector.py` fájlt és hagyd futni ameddig talál valamit.
+Open `detector.py` and let it work.
 
-Szerkezd meg a `domains.json` fájlt, hogy hozzáadj más domaineket is.
+Edit `domains.json` to add new domains.
 
-Minnél több a domain a `domains.json` fájlban annál tovább tart a keresés, ha a felhasználó régen nyitotta meg bármelyik oldalt.
+The larger the `domains.json` file the longer the process.
 
-### Támogatott böngészők
+### Supported Browsers
 * Chromium
 * Chrome
 * Edge
